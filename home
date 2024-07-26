@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Cl</title>
+		<link rel="stylesheet" href="styles3.css" />
+		<!-- font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+		<!-- locomotive-scroll -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css"
+		/>
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+		<script src="jquery.novacancy.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('#no').novacancy({
+				'reblinkProbability': 0.2,
+				'blinkMin': 0.2,
+				'blinkMax': 0.6,
+				'loopMin': 8,
+				'loopMax': 10,
+				'color': 'blue',
+				'glow': ['0 0 80px blue', '0 0 30px blue', '0 0 6px blue']
+			}); 
+
+			$('#vacancy').novacancy({
+				'blink': 1,
+				'color': 'blue',
+				'glow': ['0 0 80px blue', '0 0 30px blue', '0 0 6px blue']
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<!-- navbar -->
+				<div class="navbar">
+					<div class="navbar-container">
+						<a href="index.html">Home</a>
+						<div class="site-year">2024</div>
+					</div>
+				</div>
+
+				<!-- divider -->
+				<div class="divider"></div>
+
+				<!-- header -->
+				<!--<div class="header">
+					<div class="header-container">
+						<h1>Supasinee<br/>Siripun</h1>
+					</div>
+				</div>
+				-->
+				<div class="board">
+	    			<h1 id="no">Supasinee</h1>
+					<h1 id="vacancy">Siripun</h1>
+				</div>
+
+				<!-- hero-image -->
+				<div class="hero-image">
+					<div class="hero-image-container" data-scroll data-scroll-speed="1">
+						<img src="people1.png" alt="" />
+					</div>
+				</div>
+
+				<div class="whitespace"></div>
+				<!-- sections -->
+				<div class="section-header">
+					<div class="section-header-container">
+						<div class="section-title">about</div>
+						<div class="section-order">/001</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<!-- projects -->
+				<div class="section-header">
+					<div class="section-header-container">
+						<div class="section-title">my work</div>
+						<div class="section-order">/002</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<section class="project">
+					<div class="project-container">
+						<div>
+							<nav class="menu">
+								<div class="menu__item">
+									<a href="https://www.sustainyourstyle.org/en/reducing-our-impact" target="_blank" class="menu__item-link">/ Samsung</a>
+									<img class="menu__item-img" src="newa1.png" />
+									<div class="marquee">
+										<div class="marquee__inner">
+											<span>Samsung</span>
+											<span>Samsung</span>
+											<span>Samsung</span>
+											<span>Samsung</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="divider"></div>
+
+								<div class="menu__item">
+									<a href="https://www.farmdrop.com/blog/how-to-fight-fast-fashion/" target="_blank" class="menu__item-link">/Fight Fast Fashion</a>
+									<img class="menu__item-img" src="newa2.png" />
+									<div class="marquee">
+										<div class="marquee__inner">
+											<span>Fight Fast Fashion</span>
+											<span>Fight Fast Fashion</span>
+											<span>Fight Fast Fashion</span>
+											<span>Fight Fast Fashion</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="divider"></div>
+								
+								<div class="menu__item">
+									<a href="https://www.borgenmagazine.com/5-organizations-who-are-in-the-fight-against-fast-fashion/" target="_blank" class="menu__item-link">/ Organizations</a>
+									<img class="menu__item-img" src="newa3.png" />
+									<div class="marquee">
+										<div class="marquee__inner">
+											<span>Organizations</span>
+											<span>Organizations</span>
+											<span>Organizations</span>
+											<span>Organizations</span>
+										</div>
+									</div>
+								</div>
+								
+								<div class="divider"></div>
+
+							</nav>
+						</div>
+					</div>
+				</section>
+
+				<div class="whitespace"></div>
+				<div class="divider"></div>
+
+			<!-- about -->
+				<section class="about">
+					<div class="about-container">
+						<p>
+							The fashion industry is one the most polluting industries on the planet. Closet Conscious was created on the basis of informing consumers of their actions. 
+						</p>
+						<p>
+							It's never to late to start a change on our consumer behavior. Below, Closet Conscious has complied different ways to lessen your fashion footprint. 
+						</p>
+						<p>Thank you.</p>
+					</div>
+				</section>
+
+				<div class="whitespace"></div>
+
+				<!-- footer -->
+				<div class="footer">
+					<div class="navbar">
+						<div class="navbar-container">
+							<div class="site-title">Closet Conscious</div>
+							<a href="index.html">Home</a>
+							<div class="site-year">Supasinee</div>
+						</div>
+					</div>
+				</div>
+				<br />
+			</div>
+		</div>
+		
+	</body>
+</html>
